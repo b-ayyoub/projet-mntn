@@ -1,0 +1,417 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family:"chronicle";
+    src: url(/formation-développeur-web/MNTN/fonts/Chronicle\ Display\ Black.otf);
+}
+
+@font-face {
+    font-family: "gilroy";
+    src: url(/formation-développeur-web/MNTN/fonts/Gilroy-Medium.ttf);
+
+
+/**** je voulais gérer quelques margin et padding supplémentaire mais manque de temps tout sa je l'aurais gerer en margin padding PX REM ****/
+
+/******************************** Début de la partie header ***********************************/
+
+}
+
+header {
+    position: fixed;
+    width: 100%;
+}
+
+.menu {
+display: flex;
+text-align: center;
+width: 80%;
+margin: auto;
+justify-content: space-between;
+}
+
+.mntn {
+    letter-spacing: 3px;
+    font-size: 20px;
+    color: #FFFFFF;
+    font-family: "gilfroy";
+}
+
+.menu ul {
+    list-style: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+.menu ul li {
+    margin-top: 1rem;
+    margin: 1rem;
+}
+
+ul li {
+    font-family: "gilfroy";
+}
+
+.menu ul li a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #FFFFFF;
+    font-family: "gilfroy";
+}
+
+.container-baner{
+    height: 100vh;
+    width: 100%;
+    background-position:center;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.9)), url(../images/img-baner.png) center;
+}
+
+.follow img{
+    display: block;
+    padding: 10px;
+}
+
+.follow {
+    margin-left: 2rem;
+    padding-top: 25rem;   
+}
+
+.logo-insta img{
+    margin-top: 30rem;
+    margin-left: 2rem;
+}
+
+.logo-twitter {
+    margin-left: 2rem;
+    margin-top: 1rem;
+}
+
+.slider {
+    margin-left: 105rem;
+    top: 226px;
+    color: #FFFFFF;
+    position: fixed;
+    border-right: solid 2px;
+}
+
+.start {
+    padding-right: 15px;
+}
+
+.slider a{
+    color: #FFFFFF; 
+}
+
+.slider p{
+margin-bottom: 2rem;
+}
+
+/************************************** fin de la partie header *************************************/
+
+
+/****************************** debut de la partie image et title 1 *********************************/
+
+.title {
+    position: absolute;
+    margin-top: 20rem;
+    margin-left: 30rem;
+}
+
+.title .call {
+   color: #FBD784;
+   letter-spacing: 6px; 
+   font-size: 18px;
+   width: 316px;
+   height: 22px;
+}
+
+.title img {
+    margin-right: 10px;
+    padding-bottom: 5px;
+}
+
+h1 {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    font-family: "chronicle";
+    font-size: 88px;
+    color: #FFFFFF;
+    font-weight: 600;
+    width: 980px;
+    position: relative;
+}
+
+.number {
+    color: #9a9a9a3f;
+    position: absolute;
+    font-size: 300px;
+    margin-top: 17rem;
+    margin: 15rem;
+    margin-left: 0;
+    font-family: "gilroy";
+    line-height: 240px;
+    font-weight: 700;
+}
+
+.title .scroll {
+    color: #FFFFFF;
+    margin-top: 10px;
+}
+
+/********************************************* fin de la partie image et title 1 ******************************/
+
+/******************************************** debut de la partie image et title 2 *******************************/
+
+.principal {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    padding: 40px;
+    background-color: #0b1d26;
+}
+
+.text-content {
+    flex: 1;
+    margin-left: 20rem;  
+}
+
+.text-one {
+    color:#FBD784;
+    letter-spacing: 1px;
+    font-weight: 800;
+    font-size: 18px;
+    letter-spacing: 6px;
+    font-family: "gilroy";
+    margin: 3rem;
+}
+
+h2 {
+    font-size: 64px;
+    color: #FFFFFF;
+    font-family: "chronicle";
+    margin: 3rem;
+}
+
+.description {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #FFFFFF;
+    display: block;
+    font-family: "gilroy";
+    margin: 3rem;
+}
+
+.readmore{
+    margin-top: 10px;
+    color:#FBD784;
+    font-family: "gilroy";
+    margin: 3rem;
+    line-height: 21px;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.img-one img{
+    width: 70%;
+}
+
+.img-two img{
+    width: 190%;
+    height: 60vh;
+    margin-left: 10rem;
+}
+
+.title-h2 {
+    font-size: 64px;
+    color: #FFFFFF;
+    font-family: "chronicle";
+    margin: 3rem;
+    position: relative;
+}
+
+.number-two {
+    position: absolute;
+    color: #9a9a9a3f;
+    margin-top: 15rem;
+    margin-left: 20rem;
+    font-size: 240px;
+    font-weight: 700;
+    line-height: 240px;
+    font-family: "gilroy";
+}
+
+.column-two {
+    margin-left: 30rem;
+    margin-right: 20rem;
+}
+
+.description-two {
+    margin: 3rem;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 32px;
+    font-family: "gilroy";
+}
+
+.text-two {
+    margin: 3rem;
+    color: #FBD784;
+    letter-spacing: 6px;
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 22px;
+}
+
+/****************************** fin de la partie image et title 2 ***************************/
+
+/******************************** debut de la partie image et title 3 *************************/
+
+.title-three {
+    margin-top: 5rem;
+    margin-left: 10rem;
+    font-family: "chronicle";
+    position: relative;
+}
+
+.number-three {
+    position: absolute;
+    color: #9a9a9a3f;
+    margin-left: 0rem;
+    font-size: 240px;
+    bottom: 22rem;
+    font-family: "gilroy";
+    font-weight: 700;
+    line-height: 240px;
+}
+
+.description-three {
+    margin-left: 10rem;
+    margin-right: 10rem;
+    color: #FFFFFF;
+    font-family: "gilroy";
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 32px;
+}
+
+.text-three {
+    margin-left: 10rem;
+    color: #FFFFFF;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: 6px;
+}
+
+.readmore-three {
+    color: #FBD784;
+    font-family: "gilroy";
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    margin-left: 10rem;
+    margin-top: 2rem;
+}
+
+.img-three img{
+    width: 140%;
+    height: 60vh;
+}
+
+.img-three {
+    width: 50%;
+    margin-right: 20rem;
+}
+
+/**********************************fin de la partie image title 3 *********************/
+
+
+/************************************debut de la partie footer ********************************/
+
+.footer {
+    display: flex;
+    gap: 40px;
+    background-color: #0b1d25;
+}
+
+.column-footer{
+    margin-left: 10rem;
+    margin-bottom: 5rem;
+}
+
+.mntn-footer {
+    margin-top: 10rem;
+    color: #FFFFFF;
+    padding-bottom: 4rem;
+    margin-left: 0;
+    font-size: 32px;
+    line-height: 38px;
+    letter-spacing: 1%;
+    font-family: "chronicle";
+}
+
+.description-footer {
+    color: #FFFFFF;
+    font-family: "gilroy";
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 32px;  
+}
+
+.copy {
+    color: #666666;
+    padding-top: 10rem;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 32px;
+    font-family: "gilroy";
+}
+
+.column-footer-two {
+    margin-top: 10rem;
+    margin-left: 30rem;
+}
+
+.column-footer-two p {
+    color: #FFFFFF;
+    font-family: "gilroy";
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 32px;
+    padding-top: 1rem;
+    padding-right: 8rem;
+}
+
+.column-footer-two .more {
+    color: #FBD784;
+    font-family: "gilroy";
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+}
+
+.column-footer-three p {
+    color: #FFFFFF;
+    font-family: "gilroy";
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 32px;
+    padding-top: 1rem;
+}
+
+.column-footer-three {
+    margin-top: 10rem;
+}
+
+.column-footer-three .more {
+    color: #FBD784;
+    font-family: "gilroy";
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+}
+
+/*************************** fin de la partie footer **********************/
